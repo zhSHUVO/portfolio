@@ -7,8 +7,8 @@ const Skills = () => {
                 My <span className="text-accent">Skill</span>
             </h1>
             <div className="flex lg:justify-evenly flex-wrap justify-center">
-                <div className="tooltip" data-tip="HTML">
-                    <p className="m-5 ">
+                <div className="tooltip m-5" data-tip="HTML">
+                    <p>
                         <svg
                             stroke="currentColor"
                             fill="currentColor"
@@ -23,8 +23,8 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip" data-tip="CSS">
-                    <p className="m-5 ">
+                <div className="tooltip m-5" data-tip="CSS">
+                    <p>
                         <svg
                             stroke="currentColor"
                             fill="currentColor"
@@ -40,8 +40,8 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip" data-tip="Bootstrap">
-                    <p className="m-5 ">
+                <div className="tooltip m-5" data-tip="Bootstrap">
+                    <p>
                         <svg
                             stroke="currentColor"
                             fill="currentColor"
@@ -60,8 +60,8 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip" data-tip="Tailwind">
-                    <p className="m-5 ">
+                <div className="tooltip m-5" data-tip="Tailwind">
+                    <p>
                         <svg
                             stroke="currentColor"
                             fill="currentColor"
@@ -78,8 +78,8 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip" data-tip="JavaScript">
-                    <p className="m-5 ">
+                <div className="tooltip m-5" data-tip="JavaScript">
+                    <p>
                         <svg
                             stroke="currentColor"
                             fill="currentColor"
@@ -96,8 +96,8 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip" data-tip="ReactJS">
-                    <p className="m-5 ">
+                <div className="tooltip m-5" data-tip="ReactJS">
+                    <p>
                         <svg
                             stroke="currentColor"
                             fill="currentColor"
@@ -118,8 +118,8 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip" data-tip="NodeJS">
-                    <p className="m-5 ">
+                <div className="tooltip m-5" data-tip="NodeJS">
+                    <p>
                         <svg
                             stroke="currentColor"
                             fill="currentColor"
@@ -134,8 +134,8 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip" data-tip="Firebase">
-                    <p className="m-5 ">
+                <div className="tooltip m-5" data-tip="Firebase">
+                    <p>
                         <svg
                             stroke="currentColor"
                             fill="currentColor"
@@ -152,8 +152,8 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip" data-tip="Git">
-                    <p className="m-5 ">
+                <div className="tooltip m-5" data-tip="Git">
+                    <p>
                         <svg
                             stroke="currentColor"
                             fill="currentColor"
@@ -168,8 +168,8 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip" data-tip="Linux">
-                    <p className="m-5 ">
+                <div className="tooltip m-5" data-tip="Linux">
+                    <p>
                         <svg
                             stroke="currentColor"
                             fill="currentColor"

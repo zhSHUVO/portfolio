@@ -31,7 +31,7 @@ const Contact = () => {
 
     return (
         <div>
-            <div>
+            <div className="pb-10">
                 <h1 className="text-center text-5xl font-bold mt-10 mb-5">
                     Contact <span className="text-accent">Me</span>
                 </h1>
@@ -96,7 +96,7 @@ const Contact = () => {
 
                         <input
                             value={"send"}
-                            className="mb-3 btn btn-primary"
+                            className="mb-3 btn btn-accent"
                             type="submit"
                         />
                     </form>

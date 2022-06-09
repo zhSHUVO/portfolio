@@ -14,11 +14,11 @@ const About = () => {
                         alt="profile"
                     />
                     <div className="flex flex-col items-center ">
-                        <h1 className="text-5xl font-bold text-center">
+                        <h1 className="text-5xl font-bold text-center lg:text-left">
                             <span className="text-accent">HI,</span> <br />
                             I'M ZAYED. A JUNIOR WEB DEVELOPER
                         </h1>
-                        <p className="py-6 text-center">
+                        <p className="py-6 text-center lg:text-left">
                             My full name is Md. Zayed Hassan Bhuiyan. I live in
                             Dhaka. I'm a student of computer science at the
                             University of Daffodil.
@@ -84,9 +84,9 @@ const About = () => {
                                             </span>
                                         </p>
                                         <p>
-                                            Freelance:{" "}
+                                            Open for Job:{" "}
                                             <span className="font-bold">
-                                                Available
+                                                Yes
                                             </span>
                                         </p>
                                         <p>
@@ -150,37 +150,78 @@ const About = () => {
                             </div>
                         </div>
                         <div>
-                            <div className="grid grid-cols-2 gap-4">
+                            <h1 className="text-center text-2xl font-bold mb-2">
+                                I CAN DO
+                            </h1>
+                            <div className="grid grid-cols-2 gap-4 lg:mt-5">
                                 <div className="card  bg-base-100 lg:w-96  w-36 shadow-xl">
-                                    <div className="card-body text-center">
-                                        <h1 className="text-center lg:text-8xl text-4xl font-bold">
-                                            5+
-                                        </h1>
-                                        <p>Years of experience</p>
+                                    <div className="card-body flex items-center">
+                                        <svg
+                                            className=""
+                                            stroke="currentColor"
+                                            fill="currentColor"
+                                            stroke-width="0"
+                                            viewBox="0 0 24 24"
+                                            height="5em"
+                                            width="5em"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path d="M20,4H4C2.897,4,2,4.897,2,6v12c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V6C22,4.897,21.103,4,20,4z M4,18V6h16 l0.001,12H4z"></path>
+                                            <path d="M6.5 11h3c.276 0 .5-.224.5-.5v-2C10 8.224 9.776 8 9.5 8h-3C6.224 8 6 8.224 6 8.5v2C6 10.776 6.224 11 6.5 11zM6 14H12V16.001H6zM13 14H18V16.001H13z"></path>
+                                        </svg>
+                                        <p>Front End Development</p>
                                     </div>
                                 </div>
                                 <div className="card  bg-base-100 lg:w-96  w-36 shadow-xl">
-                                    <div className="card-body text-center">
-                                        <h1 className="text-center lg:text-8xl text-4xl font-bold">
-                                            12+
-                                        </h1>
-                                        <p>Completed projects</p>
+                                    <div className="card-body flex items-center">
+                                        <svg
+                                            stroke="currentColor"
+                                            fill="currentColor"
+                                            stroke-width="0"
+                                            viewBox="0 0 16 16"
+                                            height="5em"
+                                            width="5em"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                fill-rule="evenodd"
+                                                d="M4.854 4.146a.5.5 0 010 .708L1.707 8l3.147 3.146a.5.5 0 01-.708.708l-3.5-3.5a.5.5 0 010-.708l3.5-3.5a.5.5 0 01.708 0zm6.292 0a.5.5 0 000 .708L14.293 8l-3.147 3.146a.5.5 0 00.708.708l3.5-3.5a.5.5 0 000-.708l-3.5-3.5a.5.5 0 00-.708 0zm-.999-3.124a.5.5 0 01.33.625l-4 13a.5.5 0 01-.955-.294l4-13a.5.5 0 01.625-.33z"
+                                                clip-rule="evenodd"
+                                            ></path>
+                                        </svg>
+                                        <p>Backend Development</p>
+                                    </div>
+                                </div>
+                                <div className="card  bg-base-100 lg:w-96  w-36 shadow-xl">
+                                    <div className="card-body flex items-center">
+                                        <svg
+                                            stroke="currentColor"
+                                            fill="currentColor"
+                                            stroke-width="0"
+                                            viewBox="0 0 24 24"
+                                            height="5em"
+                                            width="5em"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path d="M5 5L10 5 10 3 3 3 3 10 5 10zM10 19L5 19 5 14 3 14 3 21 10 21zM21 14L19 14 19 19 14 19 14 21 21 21zM19 10L21 10 21 3 14 3 14 5 19 5z"></path>
+                                        </svg>
+                                        <p>Full Stack Development</p>
                                     </div>
                                 </div>
                                 <div className="card  bg-base-100 lg:w-96 w-36 shadow-xl">
-                                    <div className="card-body text-center">
-                                        <h1 className="text-center lg:text-8xl text-4xl font-bold">
-                                            15+
-                                        </h1>
-                                        <p>Happy customer</p>
-                                    </div>
-                                </div>
-                                <div className="card  bg-base-100 lg:w-96  w-36 shadow-xl">
-                                    <div className="card-body text-center">
-                                        <h1 className="text-center lg:text-8xl text-4xl font-bold">
-                                            21+
-                                        </h1>
-                                        <p>Challenges won</p>
+                                    <div className="card-body flex items-center">
+                                        <svg
+                                            stroke="currentColor"
+                                            fill="currentColor"
+                                            stroke-width="0"
+                                            viewBox="0 0 24 24"
+                                            height="5em"
+                                            width="5em"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M9.997,19H4V9h2h4L9.997,19z M19.997,17H12V9c0-1.103-0.897-2-2-2H7V5h13L19.997,17z"></path>
+                                        </svg>
+                                        <p>Responsive Design</p>
                                     </div>
                                 </div>
                             </div>
