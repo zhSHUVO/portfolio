@@ -7,18 +7,18 @@ const About = () => {
         <div>
             {/* hero section */}
             <div className="hero min-h-screen">
-                <div className="hero-content flex-col lg:flex-row">
+                <div className="hero-content flex-col lg:flex-row ">
                     <img
                         src={profileimage}
-                        className="max-w-xl rounded-2xl shadow-2xl lg:mr-10"
+                        className="lg:max-w-xl rounded-2xl shadow-2xl lg:mr-10"
                         alt="profile"
                     />
                     <div className="flex flex-col items-center ">
-                        <h1 className="text-5xl font-bold">
-                            HI, <br />
+                        <h1 className="text-5xl font-bold text-center">
+                            <span className="text-accent">HI,</span> <br />
                             I'M ZAYED. A JUNIOR WEB DEVELOPER
                         </h1>
-                        <p className="py-6">
+                        <p className="py-6 text-center">
                             My full name is Md. Zayed Hassan Bhuiyan. I live in
                             Dhaka. I'm a student of computer science at the
                             University of Daffodil.
@@ -52,8 +52,10 @@ const About = () => {
             </div>
 
             {/* about me section */}
-            <div className="py-10">
-                <h1 className="text-center text-5xl font-bold">About Me</h1>
+            <div className="pt-10">
+                <h1 className="text-center text-5xl font-bold">
+                    About <span className="text-accent">Me</span>
+                </h1>
                 <div className="flex justify-evenly">
                     <div className="lg:flex content-center items-center">
                         <div>
@@ -61,12 +63,18 @@ const About = () => {
                                 <h1 className="text-center text-2xl font-bold mb-2">
                                     PERSONAL INFOS
                                 </h1>
-                                <div className="flex justify-center">
+                                <div className="flex flex-col lg:flex-row justify-evenly">
                                     <div className="mr-5">
                                         <p>
                                             First Name:{" "}
                                             <span className="font-bold">
                                                 Zayed Hassan
+                                            </span>
+                                        </p>
+                                        <p>
+                                            Last Name:{" "}
+                                            <span className="font-bold">
+                                                Bhuiyan
                                             </span>
                                         </p>
                                         <p>
@@ -87,29 +95,8 @@ const About = () => {
                                                 +8801869515881
                                             </span>
                                         </p>
-                                        <Link
-                                            className="lg:place-self-start "
-                                            to={{
-                                                pathname:
-                                                    "//www.linkedin.com/in/zhshuvo/",
-                                            }}
-                                            target="_blank"
-                                        >
-                                            <p className="flex items-center">
-                                                LinkedIn:{" "}
-                                                <span className="font-bold">
-                                                    zhshuvo
-                                                </span>
-                                            </p>
-                                        </Link>
                                     </div>
                                     <div>
-                                        <p>
-                                            Last Name:{" "}
-                                            <span className="font-bold">
-                                                Bhuiyan
-                                            </span>
-                                        </p>
                                         <p>
                                             Nationality:{" "}
                                             <span className="font-bold">
@@ -128,6 +115,21 @@ const About = () => {
                                                 zayedhassanbhuiyan@gmail.com
                                             </span>
                                         </p>
+                                        <Link
+                                            className="lg:place-self-start "
+                                            to={{
+                                                pathname:
+                                                    "//www.linkedin.com/in/zhshuvo/",
+                                            }}
+                                            target="_blank"
+                                        >
+                                            <p className="flex items-center">
+                                                LinkedIn:{" "}
+                                                <span className="font-bold">
+                                                    zhshuvo
+                                                </span>
+                                            </p>
+                                        </Link>
                                         <Link
                                             className="lg:place-self-start"
                                             to={{
@@ -149,33 +151,33 @@ const About = () => {
                         </div>
                         <div>
                             <div className="grid grid-cols-2 gap-4">
-                                <div className="card  bg-base-100 w-96 shadow-xl">
+                                <div className="card  bg-base-100 lg:w-96  w-36 shadow-xl">
                                     <div className="card-body text-center">
-                                        <h1 className="text-center text-8xl font-bold">
+                                        <h1 className="text-center lg:text-8xl text-4xl font-bold">
                                             5+
                                         </h1>
                                         <p>Years of experience</p>
                                     </div>
                                 </div>
-                                <div className="card  bg-base-100 w-96 shadow-xl">
+                                <div className="card  bg-base-100 lg:w-96  w-36 shadow-xl">
                                     <div className="card-body text-center">
-                                        <h1 className="text-center text-8xl font-bold">
+                                        <h1 className="text-center lg:text-8xl text-4xl font-bold">
                                             12+
                                         </h1>
                                         <p>Completed projects</p>
                                     </div>
                                 </div>
-                                <div className="card  bg-base-100 w-96 shadow-xl">
+                                <div className="card  bg-base-100 lg:w-96 w-36 shadow-xl">
                                     <div className="card-body text-center">
-                                        <h1 className="text-center text-8xl font-bold">
+                                        <h1 className="text-center lg:text-8xl text-4xl font-bold">
                                             15+
                                         </h1>
                                         <p>Happy customer</p>
                                     </div>
                                 </div>
-                                <div className="card  bg-base-100 w-96 shadow-xl">
+                                <div className="card  bg-base-100 lg:w-96  w-36 shadow-xl">
                                     <div className="card-body text-center">
-                                        <h1 className="text-center text-8xl font-bold">
+                                        <h1 className="text-center lg:text-8xl text-4xl font-bold">
                                             21+
                                         </h1>
                                         <p>Challenges won</p>

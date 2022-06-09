@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 lg:sticky lg:top-0 lg:z-50">
+        <div className="navbar lg:bg-base-100/75  max-w-min lg:max-w-full  lg:sticky top-0 z-50 p-0">
             <div>
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">

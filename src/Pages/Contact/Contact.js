@@ -1,6 +1,7 @@
 import { init, sendForm } from "@emailjs/browser";
 import React from "react";
 import { useForm } from "react-hook-form";
+import toast from "react-hot-toast";
 
 const Contact = () => {
     init("tV9HgefR2RM_AN2XL");
@@ -10,14 +11,20 @@ const Contact = () => {
         formState: { errors },
     } = useForm();
 
+    const sent = () => toast.success("Message sent 🙂");
+
+    const failed = () => toast.error("Message sending failed 🤔");
+
     const onSubmit = (data) => {
         console.log(data);
         sendForm("default_service", "template_dpes78x", "#contact-form").then(
             function (response) {
                 console.log("SUCCESS!", response.status, response.text);
+                sent();
             },
             function (error) {
                 console.log("FAILED...", error);
+                failed();
             }
         );
     };
@@ -26,7 +33,7 @@ const Contact = () => {
         <div>
             <div>
                 <h1 className="text-center text-5xl font-bold mt-10 mb-5">
-                    Contact Me
+                    Contact <span className="text-accent">Me</span>
                 </h1>
                 <div className="flex flex-col lg:flex-row justify-center items-center">
                     <form

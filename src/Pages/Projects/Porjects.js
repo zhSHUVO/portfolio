@@ -8,11 +8,11 @@ const Porjects = () => {
     return (
         <div>
             <h1 className="text-center text-5xl font-bold mt-10 mb-5">
-                Some of My Projects
+                My <span className="text-accent">Projects</span>
             </h1>
-            <div className="flex justify-evenly ">
+            <div className="flex flex-col lg:flex-row justify-evenly items-center">
                 <div>
-                    <div className="card card-compact w-96 bg-base-100 shadow-xl">
+                    <div className="card card-compact lg:w-96 lg:mb-0 mb-5 w-80 bg-base-100 shadow-xl">
                         <figure>
                             <img src={remc} alt="project" />
                         </figure>
@@ -36,7 +36,7 @@ const Porjects = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="card card-compact w-96 bg-base-100 shadow-xl">
+                    <div className="card card-compact lg:w-96 lg:mb-0 mb-5 w-80 bg-base-100 shadow-xl">
                         <figure>
                             <img src={fabric} alt="project" />
                         </figure>
@@ -64,7 +64,7 @@ const Porjects = () => {
                 </div>
 
                 <div>
-                    <div className="card card-compact w-96 bg-base-100 shadow-xl">
+                    <div className="card card-compact lg:w-96 lg:mb-0 mb-5 w-80 bg-base-100 shadow-xl">
                         <figure>
                             <img src={t3} alt="project" />
                         </figure>
