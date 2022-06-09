@@ -15,7 +15,8 @@ const About = () => {
                     />
                     <div className="flex flex-col items-center ">
                         <h1 className="text-5xl font-bold">
-                            I'M SHUVO. WEB DEVELOPER
+                            HI, <br />
+                            I'M ZAYED. A JUNIOR WEB DEVELOPER
                         </h1>
                         <p className="py-6">
                             My full name is Md. Zayed Hassan Bhuiyan. I live in
@@ -31,7 +32,7 @@ const About = () => {
                             }}
                             target="_blank"
                         >
-                            <button className="btn">
+                            <button className="btn bg-accent">
                                 Download Resume{" "}
                                 <svg
                                     className="pl-3"
@@ -87,7 +88,7 @@ const About = () => {
                                             </span>
                                         </p>
                                         <Link
-                                            className="lg:place-self-start"
+                                            className="lg:place-self-start "
                                             to={{
                                                 pathname:
                                                     "//www.linkedin.com/in/zhshuvo/",
@@ -148,7 +149,7 @@ const About = () => {
                         </div>
                         <div>
                             <div className="grid grid-cols-2 gap-4">
-                                <div className="card  glass w-96 shadow-xl">
+                                <div className="card  bg-base-100 w-96 shadow-xl">
                                     <div className="card-body text-center">
                                         <h1 className="text-center text-8xl font-bold">
                                             5+
@@ -156,7 +157,7 @@ const About = () => {
                                         <p>Years of experience</p>
                                     </div>
                                 </div>
-                                <div className="card  glass w-96 shadow-xl">
+                                <div className="card  bg-base-100 w-96 shadow-xl">
                                     <div className="card-body text-center">
                                         <h1 className="text-center text-8xl font-bold">
                                             12+
@@ -164,7 +165,7 @@ const About = () => {
                                         <p>Completed projects</p>
                                     </div>
                                 </div>
-                                <div className="card  glass w-96 shadow-xl">
+                                <div className="card  bg-base-100 w-96 shadow-xl">
                                     <div className="card-body text-center">
                                         <h1 className="text-center text-8xl font-bold">
                                             15+
@@ -172,7 +173,7 @@ const About = () => {
                                         <p>Happy customer</p>
                                     </div>
                                 </div>
-                                <div className="card  glass w-96 shadow-xl">
+                                <div className="card  bg-base-100 w-96 shadow-xl">
                                     <div className="card-body text-center">
                                         <h1 className="text-center text-8xl font-bold">
                                             21+

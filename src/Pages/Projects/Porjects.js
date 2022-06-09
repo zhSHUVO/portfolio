@@ -27,7 +27,7 @@ const Porjects = () => {
                                     }}
                                     target="_blank"
                                 >
-                                    <button className="btn btn-primary">
+                                    <button className="btn btn-accent">
                                         Visit
                                     </button>
                                 </Link>
@@ -54,7 +54,7 @@ const Porjects = () => {
                                     }}
                                     target="_blank"
                                 >
-                                    <button className="btn btn-primary">
+                                    <button className="btn btn-accent">
                                         Visit
                                     </button>
                                 </Link>
@@ -81,7 +81,7 @@ const Porjects = () => {
                                     }}
                                     target="_blank"
                                 >
-                                    <button className="btn btn-primary">
+                                    <button className="btn btn-accent">
                                         Visit
                                     </button>
                                 </Link>

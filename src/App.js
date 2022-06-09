@@ -10,7 +10,7 @@ import Testimonials from "./Pages/Testimonials/Testimonials";
 
 function App() {
     return (
-        <div className="App">
+        <div className="bg-primary">
             <Navbar></Navbar>
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
