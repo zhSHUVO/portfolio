@@ -14,26 +14,20 @@ function App() {
             <Navbar></Navbar>
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
-            </Routes>
-            <Routes>
+
                 <Route path="/home" element={<Home></Home>}></Route>
-            </Routes>
-            <Routes>
+
                 <Route path="/about" element={<About></About>}></Route>
-            </Routes>
-            <Routes>
+
                 <Route path="/projects" element={<Porjects></Porjects>}></Route>
-            </Routes>
-            <Routes>
+
                 <Route path="/skills" element={<Skills></Skills>}></Route>
-            </Routes>
-            <Routes>
+
                 <Route
                     path="/testimonials"
                     element={<Testimonials></Testimonials>}
                 ></Route>
-            </Routes>
-            <Routes>
+
                 <Route path="/contact" element={<Contact></Contact>}></Route>
             </Routes>
         </div>
