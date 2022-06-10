@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./Navbar.css";
 
 const Navbar = () => {
     return (
-        <div className="navbar lg:bg-base-100/75  max-w-min lg:max-w-full  lg:sticky top-0 z-50 p-0">
+        <div className="navbar lg:bg-base-100/75  max-w-min lg:max-w-full  sticky top-0 z-50 p-0">
             <div>
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -27,23 +28,45 @@ const Navbar = () => {
                         className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
                     >
                         <li>
-                            <Link to="/">Home</Link>
+                            <HashLink smooth to="/#homesection">
+                                Home
+                            </HashLink>
                         </li>
 
                         <li>
-                            <Link to="/projects">Projects</Link>
+                            <HashLink smooth to="/home#aboutsection">
+                                About
+                            </HashLink>
                         </li>
+
                         <li>
-                            <Link to="/skills">Skills</Link>
+                            <HashLink smooth to="/home#skillsection">
+                                Skills
+                            </HashLink>
                         </li>
+
                         <li>
-                            <Link to="/testimonials">Testimonials</Link>
+                            <HashLink smooth to="/home#projectsection">
+                                Projects
+                            </HashLink>
                         </li>
+
                         <li>
-                            <Link to="/blogs">Blogs</Link>
+                            <HashLink smooth to="/home#contactsection">
+                                Contact
+                            </HashLink>
                         </li>
+
                         <li>
-                            <Link to="/contact">Contact</Link>
+                            <HashLink smooth to="/testimonials">
+                                Testimonials
+                            </HashLink>
+                        </li>
+
+                        <li>
+                            <HashLink smooth to="/blogs">
+                                Blogs
+                            </HashLink>
                         </li>
                     </ul>
                 </div>
@@ -51,7 +74,7 @@ const Navbar = () => {
             <div className="navbar hidden lg:flex justify-center">
                 <ul className="menu menu-horizontal p-0">
                     <li className="mx-12">
-                        <Link to="/">
+                        <HashLink smooth to="/#homesection">
                             {" "}
                             <span className="text-accent">
                                 <svg
@@ -67,11 +90,11 @@ const Navbar = () => {
                                 </svg>
                             </span>{" "}
                             Home
-                        </Link>
+                        </HashLink>
                     </li>
 
                     <li className="mx-12">
-                        <Link to="/projects">
+                        <HashLink smooth to="/home#aboutsection">
                             {" "}
                             <span className="text-accent">
                                 <svg
@@ -86,11 +109,15 @@ const Navbar = () => {
                                     <path d="M384 320H256c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32zM192 32c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v128c0 17.67 14.33 32 32 32h95.72l73.16 128.04C211.98 300.98 232.4 288 256 288h.28L192 175.51V128h224V64H192V32zM608 0H480c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32z"></path>
                                 </svg>
                             </span>{" "}
-                            Projects
-                        </Link>
+                            About
+                        </HashLink>
                     </li>
                     <li>
-                        <Link to="/skills" className="mx-12">
+                        <HashLink
+                            smooth
+                            to="/home#skillsection"
+                            className="mx-12"
+                        >
                             {" "}
                             <span className="text-accent">
                                 <svg
@@ -108,7 +135,46 @@ const Navbar = () => {
                                 </svg>
                             </span>{" "}
                             Skills
-                        </Link>
+                        </HashLink>
+                    </li>
+                    <li className="mx-12">
+                        <HashLink smooth to="/home#projectsection">
+                            {" "}
+                            <span className="text-accent">
+                                <svg
+                                    stroke="currentColor"
+                                    fill="currentColor"
+                                    strokeWidth="0"
+                                    viewBox="0 0 640 512"
+                                    height="1.25em"
+                                    width="1.25em"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path d="M384 320H256c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32zM192 32c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v128c0 17.67 14.33 32 32 32h95.72l73.16 128.04C211.98 300.98 232.4 288 256 288h.28L192 175.51V128h224V64H192V32zM608 0H480c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32z"></path>
+                                </svg>
+                            </span>{" "}
+                            Projects
+                        </HashLink>
+                    </li>
+
+                    <li className="mx-12">
+                        <HashLink smooth to="/home#contactsection">
+                            {" "}
+                            <span className="text-accent">
+                                <svg
+                                    stroke="currentColor"
+                                    fill="currentColor"
+                                    strokeWidth="0"
+                                    viewBox="0 0 24 24"
+                                    height="1.25em"
+                                    width="1.25em"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H6v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1z"></path>
+                                </svg>
+                            </span>{" "}
+                            Contact
+                        </HashLink>
                     </li>
                     <li className="mx-12">
                         <Link to="/testimonials">
@@ -146,25 +212,6 @@ const Navbar = () => {
                                 </svg>
                             </span>{" "}
                             Blogs
-                        </Link>
-                    </li>
-                    <li className="mx-12">
-                        <Link to="/contact">
-                            {" "}
-                            <span className="text-accent">
-                                <svg
-                                    stroke="currentColor"
-                                    fill="currentColor"
-                                    strokeWidth="0"
-                                    viewBox="0 0 24 24"
-                                    height="1.25em"
-                                    width="1.25em"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H6v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1z"></path>
-                                </svg>
-                            </span>{" "}
-                            Contact
                         </Link>
                     </li>
                 </ul>

@@ -3,7 +3,7 @@ import profileimage from "../../Images/profile.jpeg";
 
 const About = () => {
     return (
-        <div>
+        <div  >
             {/* hero section */}
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row ">
@@ -51,7 +51,7 @@ const About = () => {
             </div>
 
             {/* about me section */}
-            <div className="pt-10">
+            <div id="aboutsection" className="pt-10">
                 <h1 className="text-center text-5xl font-bold">
                     About <span className="text-accent">Me</span>
                 </h1>

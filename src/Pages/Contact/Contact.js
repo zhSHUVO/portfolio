@@ -30,7 +30,7 @@ const Contact = () => {
     };
 
     return (
-        <div>
+        <div id="contactsection">
             <div className="pb-10">
                 <h1 className="text-center text-5xl font-bold mt-10 mb-5">
                     Contact <span className="text-accent">Me</span>

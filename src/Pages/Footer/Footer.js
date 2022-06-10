@@ -6,7 +6,7 @@ const Footer = () => {
     };
 
     return (
-        <div className="sticky top-[100vh]">
+        <div id="footer">
             <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded ">
                 <div>
                     <div className="grid grid-flow-col gap-4">

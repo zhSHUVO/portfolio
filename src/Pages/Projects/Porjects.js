@@ -5,7 +5,7 @@ import t3 from "../../Images/t3/t3.png";
 
 const Porjects = () => {
     return (
-        <div>
+        <div id="projectsection">
             <h1 className="text-center text-5xl font-bold mt-10 mb-5">
                 My <span className="text-accent">Projects</span>
             </h1>

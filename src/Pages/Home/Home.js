@@ -6,7 +6,7 @@ import Skills from "../Skills/Skills";
 
 const Home = () => {
     return (
-        <div>
+        <div id="homesection" >
             <About></About>
             <Skills></Skills>
             <Porjects></Porjects>
