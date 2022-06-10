@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import profileimage from "../../Images/profile.jpeg";
 
@@ -160,7 +159,7 @@ const About = () => {
                                             className=""
                                             stroke="currentColor"
                                             fill="currentColor"
-                                            stroke-width="0"
+                                            strokeWidth="0"
                                             viewBox="0 0 24 24"
                                             height="5em"
                                             width="5em"
@@ -177,16 +176,16 @@ const About = () => {
                                         <svg
                                             stroke="currentColor"
                                             fill="currentColor"
-                                            stroke-width="0"
+                                            strokeWidth="0"
                                             viewBox="0 0 16 16"
                                             height="5em"
                                             width="5em"
                                             xmlns="http://www.w3.org/2000/svg"
                                         >
                                             <path
-                                                fill-rule="evenodd"
+                                                fillRule="evenodd"
                                                 d="M4.854 4.146a.5.5 0 010 .708L1.707 8l3.147 3.146a.5.5 0 01-.708.708l-3.5-3.5a.5.5 0 010-.708l3.5-3.5a.5.5 0 01.708 0zm6.292 0a.5.5 0 000 .708L14.293 8l-3.147 3.146a.5.5 0 00.708.708l3.5-3.5a.5.5 0 000-.708l-3.5-3.5a.5.5 0 00-.708 0zm-.999-3.124a.5.5 0 01.33.625l-4 13a.5.5 0 01-.955-.294l4-13a.5.5 0 01.625-.33z"
-                                                clip-rule="evenodd"
+                                                clipRule="evenodd"
                                             ></path>
                                         </svg>
                                         <p>Backend Development</p>
@@ -197,7 +196,7 @@ const About = () => {
                                         <svg
                                             stroke="currentColor"
                                             fill="currentColor"
-                                            stroke-width="0"
+                                            strokeWidth="0"
                                             viewBox="0 0 24 24"
                                             height="5em"
                                             width="5em"
@@ -213,7 +212,7 @@ const About = () => {
                                         <svg
                                             stroke="currentColor"
                                             fill="currentColor"
-                                            stroke-width="0"
+                                            strokeWidth="0"
                                             viewBox="0 0 24 24"
                                             height="5em"
                                             width="5em"

@@ -2,7 +2,9 @@ import { Toaster } from "react-hot-toast";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./Pages/About/About";
+import Blogs from "./Pages/Blogs/Blogs";
 import Contact from "./Pages/Contact/Contact";
+import Footer from "./Pages/Footer/Footer";
 import Home from "./Pages/Home/Home";
 import Navbar from "./Pages/Navbar/Navbar";
 import Fabric from "./Pages/Projects/Fabric/Fabric";
@@ -14,7 +16,7 @@ import Testimonials from "./Pages/Testimonials/Testimonials";
 
 function App() {
     return (
-        <div className="bg-primary">
+        <div className="h-screen bg-primary">
             <Navbar></Navbar>
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
@@ -35,9 +37,12 @@ function App() {
                     element={<Testimonials></Testimonials>}
                 ></Route>
 
+                <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+
                 <Route path="/contact" element={<Contact></Contact>}></Route>
             </Routes>
             <Toaster />
+            <Footer></Footer>
         </div>
     );
 }

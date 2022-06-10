@@ -5,7 +5,7 @@ import t33 from "../../../Images/t3/t33.png";
 
 const T3 = () => {
     return (
-        <div>
+        <div className="my-5">
             <div className="grid place-items-center">
                 <div className="grid grid-cols-3 gap-4 p-5 max-w-screen-lg">
                     <div className=" rounded-lg col-span-3">
@@ -20,6 +20,30 @@ const T3 = () => {
                     <div className=" rounded-lg col-span-2">
                         <img src={t32} alt="" />
                     </div>
+                </div>
+            </div>
+            <div className="grid place-items-center">
+                <div className="text-center max-w-screen-lg">
+                    <h1 className=" text-5xl font-bold my-5 text-accent">
+                        TIN HIHI T3
+                    </h1>
+                    <p>
+                        This is a single product review website. Here we have
+                        the item itself and some user review. Also we have some
+                        graph or chart.
+                    </p>
+                </div>
+                <div>
+                    <h1 className="text-2xl font-bold mt-5">
+                        Technologies <span className="text-accent">Used</span>
+                    </h1>
+                    <ul className="list-disc flex flex-col items-center">
+                        <li>react</li>
+                        <li>react router</li>
+                        <li>rechart</li>
+                        <li>Netlify</li>
+                        <li>Git</li>
+                    </ul>
                 </div>
             </div>
         </div>
