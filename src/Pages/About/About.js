@@ -3,7 +3,7 @@ import profileimage from "../../Images/profile.jpeg";
 
 const About = () => {
     return (
-        <div  >
+        <div>
             {/* hero section */}
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row ">
@@ -55,6 +55,17 @@ const About = () => {
                 <h1 className="text-center text-5xl font-bold">
                     About <span className="text-accent">Me</span>
                 </h1>
+                <div className="flex flex-col items-center py-3">
+                    <p className="text-center w-4/5	pb-2 lg:w-3/5">
+                        I consider myself a junior web Developer. Currently I'm
+                        a undergraduate at Daffodil International University.
+                        I'm still learning and trying to improve myself.
+                    </p>
+                    <p className="text-center w-4/5 lg:w-3/5">
+                        I'm a dependable person and hardworking. I'm honest,
+                        flexible and reliable. Here some of my information.
+                    </p>
+                </div>
                 <div className="flex justify-evenly">
                     <div className="lg:flex content-center items-center">
                         <div>
