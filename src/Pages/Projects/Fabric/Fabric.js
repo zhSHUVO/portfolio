@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import fabric from "../../../Images/fabric/fabric.png";
 import fabric2 from "../../../Images/fabric/fabric2.png";
 import fabric3 from "../../../Images/fabric/fabric3.png";
@@ -55,6 +56,15 @@ const Fabric = () => {
                         <li>Git</li>
                     </ul>
                 </div>
+                <Link
+                    className="pt-5"
+                    to={{
+                        pathname: "//fabric-house-99700.web.app/",
+                    }}
+                    target="_blank"
+                >
+                    <button className="btn btn-accent">Visit</button>
+                </Link>
             </div>
         </div>
     );

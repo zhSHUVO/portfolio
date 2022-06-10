@@ -24,17 +24,6 @@ const Porjects = () => {
                                         Details
                                     </button>
                                 </Link>
-                                <Link
-                                    to={{
-                                        pathname:
-                                            "//rem-company.firebaseapp.com/",
-                                    }}
-                                    target="_blank"
-                                >
-                                    <button className="btn btn-accent">
-                                        Visit
-                                    </button>
-                                </Link>
                             </div>
                         </div>
                     </div>
@@ -56,17 +45,7 @@ const Porjects = () => {
                                         Details
                                     </button>
                                 </Link>
-                                <Link
-                                    to={{
-                                        pathname:
-                                            "//fabric-house-99700.web.app/",
-                                    }}
-                                    target="_blank"
-                                >
-                                    <button className="btn btn-accent">
-                                        Visit
-                                    </button>
-                                </Link>
+                                
                             </div>
                         </div>
                     </div>
@@ -89,16 +68,7 @@ const Porjects = () => {
                                         Details
                                     </button>
                                 </Link>
-                                <Link
-                                    to={{
-                                        pathname: "//t3-plus.netlify.app/",
-                                    }}
-                                    target="_blank"
-                                >
-                                    <button className="btn btn-accent">
-                                        Visit
-                                    </button>
-                                </Link>
+                                
                             </div>
                         </div>
                     </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import remc from "../../../Images/remc/remc.png";
 import remc1 from "../../../Images/remc/remc1.png";
 import remc2 from "../../../Images/remc/remc2.png";
@@ -64,6 +65,15 @@ const Remc = () => {
                         <li>Git</li>
                     </ul>
                 </div>
+                <Link
+                    className="pt-5"
+                    to={{
+                        pathname: "//rem-company.firebaseapp.com/",
+                    }}
+                    target="_blank"
+                >
+                    <button className="btn btn-accent">Visit</button>
+                </Link>
             </div>
         </div>
     );

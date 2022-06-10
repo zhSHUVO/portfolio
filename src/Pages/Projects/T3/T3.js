@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import t3 from "../../../Images/t3/t3.png";
 import t31 from "../../../Images/t3/t31.png";
 import t32 from "../../../Images/t3/t32.png";
@@ -45,6 +46,15 @@ const T3 = () => {
                         <li>Git</li>
                     </ul>
                 </div>
+                <Link
+                    className="pt-5"
+                    to={{
+                        pathname: "//t3-plus.netlify.app/",
+                    }}
+                    target="_blank"
+                >
+                    <button className="btn btn-accent">Visit</button>
+                </Link>
             </div>
         </div>
     );
