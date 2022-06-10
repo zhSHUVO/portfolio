@@ -1,8 +1,7 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import fabric from "../../Images/fabric.png";
-import remc from "../../Images/remc.png";
-import t3 from "../../Images/t3.png";
+import fabric from "../../Images/fabric/fabric.png";
+import remc from "../../Images/remc/remc.png";
+import t3 from "../../Images/t3/t3.png";
 
 const Porjects = () => {
     return (
@@ -20,6 +19,11 @@ const Porjects = () => {
                             <h2 className="card-title">REMC</h2>
                             <p>Website for manufacturing company</p>
                             <div className="card-actions justify-end">
+                                <Link to="/remc">
+                                    <button className="btn btn-accent">
+                                        Details
+                                    </button>
+                                </Link>
                                 <Link
                                     to={{
                                         pathname:
@@ -47,6 +51,11 @@ const Porjects = () => {
                                 weading
                             </p>
                             <div className="card-actions justify-end">
+                                <Link to="/fabric">
+                                    <button className="btn btn-accent">
+                                        Details
+                                    </button>
+                                </Link>
                                 <Link
                                     to={{
                                         pathname:
@@ -75,6 +84,11 @@ const Porjects = () => {
                                 Plus
                             </p>
                             <div className="card-actions justify-end">
+                                <Link to="/t3">
+                                    <button className="btn btn-accent">
+                                        Details
+                                    </button>
+                                </Link>
                                 <Link
                                     to={{
                                         pathname: "//t3-plus.netlify.app/",
