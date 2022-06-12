@@ -46,24 +46,24 @@ const Remc = () => {
                     </p>
                 </div>
                 <div>
-                    <h1 className="text-2xl font-bold mt-5">
+                    <h1 className="text-2xl text-center font-bold mt-5">
                         Technologies <span className="text-accent">Used</span>
                     </h1>
-                    <ul className="list-disc flex flex-col items-center">
-                        <li>react</li>
-                        <li>react router</li>
-                        <li>react icons</li>
-                        <li>react queries</li>
-                        <li>react firebase hooks</li>
-                        <li>Tailwin</li>
-                        <li>DaisyUI</li>
-                        <li>mongodb</li>
-                        <li>mongodb atlas</li>
-                        <li>JWT</li>
-                        <li>firebase</li>
-                        <li>stripe</li>
-                        <li>Git</li>
-                    </ul>
+                    <div className="text-center pt-5 px-10">
+                        <div class="badge mx-2">ReactJS</div>
+                        <div class="badge mx-2">React Router</div>
+                        <div class="badge mx-2">React Icons</div>
+                        <div class="badge mx-2">React Queries</div>
+                        <div class="badge mx-2">React Firebase Hooks</div>
+                        <div class="badge mx-2">Tailwin</div>
+                        <div class="badge mx-2">DaisyUI</div>
+                        <div class="badge mx-2">MongoDB</div>
+                        <div class="badge mx-2">MongoDB Atlas</div>
+                        <div class="badge mx-2">JWT</div>
+                        <div class="badge mx-2">Firebase</div>
+                        <div class="badge mx-2">Stripe</div>
+                        <div class="badge mx-2">Git</div>
+                    </div>
                 </div>
                 <Link
                     className="pt-5"
@@ -72,7 +72,7 @@ const Remc = () => {
                     }}
                     target="_blank"
                 >
-                    <button className="btn btn-accent">Visit</button>
+                    <button className="btn btn-accent px-10">Visit</button>
                 </Link>
             </div>
         </div>

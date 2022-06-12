@@ -35,16 +35,16 @@ const T3 = () => {
                     </p>
                 </div>
                 <div>
-                    <h1 className="text-2xl font-bold mt-5">
+                    <h1 className="text-2xl text-center font-bold mt-5">
                         Technologies <span className="text-accent">Used</span>
                     </h1>
-                    <ul className="list-disc flex flex-col items-center">
-                        <li>react</li>
-                        <li>react router</li>
-                        <li>rechart</li>
-                        <li>Netlify</li>
-                        <li>Git</li>
-                    </ul>
+                    <div className="text-center pt-5 px-10">
+                        <div class="badge mx-2">React</div>
+                        <div class="badge mx-2">React Router</div>
+                        <div class="badge mx-2">Rechart</div>
+                        <div class="badge mx-2">Netlify</div>
+                        <div class="badge mx-2">Git</div>
+                    </div>
                 </div>
                 <Link
                     className="pt-5"
@@ -53,7 +53,7 @@ const T3 = () => {
                     }}
                     target="_blank"
                 >
-                    <button className="btn btn-accent">Visit</button>
+                    <button className="btn btn-accent px-10">Visit</button>
                 </Link>
             </div>
         </div>
