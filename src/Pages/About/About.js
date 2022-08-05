@@ -19,8 +19,8 @@ const About = () => {
                         </h1>
                         <p className="py-6 text-center lg:text-left">
                             My full name is Md. Zayed Hassan Bhuiyan. I live in
-                            Dhaka. I'm a student of computer science at the
-                            University of Daffodil.
+                            Dhaka, Bangladesh. I'm a student of computer science
+                            at the University of Daffodil.
                         </p>
 
                         <Link

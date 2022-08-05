@@ -30,19 +30,20 @@ const Remc = () => {
                         Root Electronics and Manufacturing Company
                     </h1>
                     <p>
-                        This website is made for company who manufacture things
-                        and sell wholesale batch. Here admin can showcase their
-                        featured products in homepage and all items in saperate
-                        page. Indivudule product has bye page, where an user can
-                        add products according to their need. After that user
-                        will go to their "My Order" page where all of their
-                        ordered products will be shown. There will be Pay,
-                        Review or Delete option. After the payment transaction
-                        id will be shown for the user.
+                        This website is made for companies who manufacture
+                        things and sell wholesale batches. Here admin can
+                        showcase their featured products on the homepage and all
+                        items on a separate page. Individual product has a buy
+                        page, where users can add products according to their
+                        need. After that users will go to their "My Order" page
+                        where all of their ordered products will be shown. There
+                        will be Pay, Review, or Delete option. After the payment
+                        transaction id will be offered to the user.
                     </p>
                     <p>
-                        Also an admin can cancle order, update order, add item,
-                        delete item, pomote user to admin, delete user.
+                        Also, an admin can cancel an order, update an order, add
+                        item, delete an item, promote the user to the admin, and
+                        delete the user.
                     </p>
                 </div>
                 <div>

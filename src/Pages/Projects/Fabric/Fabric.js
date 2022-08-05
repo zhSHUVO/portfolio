@@ -29,12 +29,12 @@ const Fabric = () => {
                         Fabric House
                     </h1>
                     <p>
-                        This website is made for a warehouse storage. Here user
-                        can store their fabric related products, like dresses,
-                        sheets and etc. User can restock or deliver items to
-                        their customers. Stock value will change according to
-                        restock or delivery. User can add new products to their
-                        stock.
+                        This website is made for warehouse storage. Here users
+                        can store their fabric-related products, like dresses,
+                        sheets and etc. Users can restock or deliver items to
+                        their customers. The stock value will change according
+                        to restock or delivery. Users can add new products to
+                        their stock.
                     </p>
                 </div>
                 <div>
