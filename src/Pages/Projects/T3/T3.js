@@ -39,11 +39,11 @@ const T3 = () => {
                         Technologies <span className="text-accent">Used</span>
                     </h1>
                     <div className="text-center pt-5 px-10">
-                        <div class="badge mx-2">React</div>
-                        <div class="badge mx-2">React Router</div>
-                        <div class="badge mx-2">Rechart</div>
-                        <div class="badge mx-2">Netlify</div>
-                        <div class="badge mx-2">Git</div>
+                        <div className="badge mx-2">React</div>
+                        <div className="badge mx-2">React Router</div>
+                        <div className="badge mx-2">Rechart</div>
+                        <div className="badge mx-2">Netlify</div>
+                        <div className="badge mx-2">Git</div>
                     </div>
                 </div>
                 <Link

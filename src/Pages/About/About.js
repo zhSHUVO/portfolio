@@ -27,7 +27,7 @@ const About = () => {
                             className="lg:place-self-start"
                             to={{
                                 pathname:
-                                    "//drive.google.com/file/d/1ZKqJlsLmU5XSSUES54l0SGhu1bsL4EbZ/view?usp=sharing",
+                                    "//drive.google.com/file/d/1ZKqJlsLmU5XSSUES54l0SGhu1bsL4EbZ/",
                             }}
                             target="_blank"
                         >

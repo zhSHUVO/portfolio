@@ -42,18 +42,18 @@ const Fabric = () => {
                         Technologies <span className="text-accent">Used</span>
                     </h1>
                     <div className="text-center pt-5 px-10">
-                        <div class="badge mx-2">ReactJS</div>
-                        <div class="badge mx-2">React Router</div>
-                        <div class="badge mx-2">React Icons</div>
-                        <div class="badge mx-2">React Queries</div>
-                        <div class="badge mx-2">React Firebase Hooks</div>
-                        <div class="badge mx-2">Bootstrap</div>
-                        <div class="badge mx-2">React Bootstrap</div>
-                        <div class="badge mx-2">MongoDB</div>
-                        <div class="badge mx-2">MongoDB Atlas</div>
-                        <div class="badge mx-2">JWT</div>
-                        <div class="badge mx-2">Firebase</div>
-                        <div class="badge mx-2">Git</div>
+                        <div className="badge mx-2">ReactJS</div>
+                        <div className="badge mx-2">React Router</div>
+                        <div className="badge mx-2">React Icons</div>
+                        <div className="badge mx-2">React Queries</div>
+                        <div className="badge mx-2">React Firebase Hooks</div>
+                        <div className="badge mx-2">Bootstrap</div>
+                        <div className="badge mx-2">React Bootstrap</div>
+                        <div className="badge mx-2">MongoDB</div>
+                        <div className="badge mx-2">MongoDB Atlas</div>
+                        <div className="badge mx-2">JWT</div>
+                        <div className="badge mx-2">Firebase</div>
+                        <div className="badge mx-2">Git</div>
                     </div>
                 </div>
                 <Link
