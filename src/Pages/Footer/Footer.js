@@ -73,7 +73,8 @@ const Footer = () => {
                         </Link>
                         <Link
                             to={{
-                                pathname: "//www.linkedin.com/in/zhshuvo/",
+                                pathname:
+                                    "//www.linkedin.com/in/zayedhassanbhuiyan/",
                             }}
                             target="_blank"
                         >
