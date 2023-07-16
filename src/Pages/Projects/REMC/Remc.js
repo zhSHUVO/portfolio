@@ -30,20 +30,14 @@ const Remc = () => {
                         Root Electronics and Manufacturing Company
                     </h1>
                     <p>
-                        This website is made for companies who manufacture
-                        things and sell wholesale batches. Here admin can
-                        showcase their featured products on the homepage and all
-                        items on a separate page. Individual product has a buy
-                        page, where users can add products according to their
-                        need. After that users will go to their "My Order" page
-                        where all of their ordered products will be shown. There
-                        will be Pay, Review, or Delete option. After the payment
-                        transaction id will be offered to the user.
-                    </p>
-                    <p>
-                        Also, an admin can cancel an order, update an order, add
-                        item, delete an item, promote the user to the admin, and
-                        delete the user.
+                        The REMC project is a full-stack web application that
+                        provides a platform for managing and selling electronic
+                        products. It consists of a frontend client application
+                        and a backend server application. The frontend is built
+                        using React and is responsible for the user interface
+                        and interactions, while the backend is built using
+                        Express.js and MongoDB and handles the data storage,
+                        authentication, and payment processing.
                     </p>
                 </div>
                 <div>
@@ -59,22 +53,33 @@ const Remc = () => {
                         <div className="badge mx-2">Tailwin</div>
                         <div className="badge mx-2">DaisyUI</div>
                         <div className="badge mx-2">MongoDB</div>
-                        <div className="badge mx-2">MongoDB Atlas</div>
                         <div className="badge mx-2">JWT</div>
                         <div className="badge mx-2">Firebase</div>
                         <div className="badge mx-2">Stripe</div>
+                        <div className="badge mx-2">Railway</div>
                         <div className="badge mx-2">Git</div>
                     </div>
                 </div>
-                <Link
-                    className="pt-5"
-                    to={{
-                        pathname: "//rem-company.firebaseapp.com/",
-                    }}
-                    target="_blank"
-                >
-                    <button className="btn btn-accent px-10">Visit</button>
-                </Link>
+                <div className="flex">
+                    <Link
+                        className="pt-5 px-2"
+                        to={{
+                            pathname: "//rem-company.firebaseapp.com/",
+                        }}
+                        target="_blank"
+                    >
+                        <button className="btn btn-accent px-10">Visit</button>
+                    </Link>
+                    <Link
+                        className="pt-5 px-2"
+                        to={{
+                            pathname: "//github.com/zhSHUVO/remc",
+                        }}
+                        target="_blank"
+                    >
+                        <button className="btn btn-accent px-10">GitHub</button>
+                    </Link>
+                </div>
             </div>
         </div>
     );

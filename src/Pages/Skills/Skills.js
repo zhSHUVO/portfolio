@@ -2,12 +2,12 @@ import React from "react";
 
 const Skills = () => {
     return (
-        <div id="skillsection" className="py-10">
+        <div id="skillsection" className="py-10 px-20">
             <h1 className="text-center text-5xl font-bold  mt-10 mb-5">
                 My <span className="text-accent">Skill</span>
             </h1>
             <div className="flex lg:justify-evenly flex-wrap justify-center">
-                <div className="tooltip m-5" data-tip="HTML">
+                <div className="tooltip tooltip-accent m-5" data-tip="HTML">
                     <p>
                         <svg
                             stroke="currentColor"
@@ -23,7 +23,7 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip m-5" data-tip="CSS">
+                <div className="tooltip tooltip-accent m-5" data-tip="CSS">
                     <p>
                         <svg
                             stroke="currentColor"
@@ -40,7 +40,10 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip m-5" data-tip="Bootstrap">
+                <div
+                    className="tooltip tooltip-accent m-5"
+                    data-tip="Bootstrap"
+                >
                     <p>
                         <svg
                             stroke="currentColor"
@@ -60,7 +63,7 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip m-5" data-tip="Tailwind">
+                <div className="tooltip tooltip-accent m-5" data-tip="Tailwind">
                     <p>
                         <svg
                             stroke="currentColor"
@@ -78,7 +81,10 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip m-5" data-tip="JavaScript">
+                <div
+                    className="tooltip tooltip-accent m-5"
+                    data-tip="JavaScript"
+                >
                     <p>
                         <svg
                             stroke="currentColor"
@@ -96,7 +102,7 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip m-5" data-tip="ReactJS">
+                <div className="tooltip tooltip-accent m-5" data-tip="ReactJS">
                     <p>
                         <svg
                             stroke="currentColor"
@@ -117,8 +123,76 @@ const Skills = () => {
                         </svg>
                     </p>
                 </div>
+                <div className="tooltip tooltip-accent m-5" data-tip="Redux">
+                    <p>
+                        <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            strokeWidth="0"
+                            role="img"
+                            viewBox="0 0 24 24"
+                            height="2.5em"
+                            width="2.5em"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <title></title>
+                            <path d="M16.633 16.504c.869-.075 1.543-.84 1.499-1.754-.046-.914-.795-1.648-1.708-1.648h-.061c-.943.031-1.678.824-1.648 1.769.03.479.226.869.494 1.153-1.048 2.038-2.621 3.536-5.004 4.795-1.603.838-3.296 1.154-4.944.929-1.378-.194-2.456-.81-3.116-1.798-.988-1.499-1.078-3.116-.255-4.734.601-1.169 1.499-2.023 2.099-2.443-.15-.389-.33-1.048-.42-1.542-4.436 3.177-3.985 7.521-2.637 9.574 1.004 1.498 3.057 2.456 5.304 2.456.599 0 1.229-.044 1.843-.194 3.896-.749 6.847-3.086 8.54-6.532l.014-.031zM21.981 12.758c-2.321-2.727-5.738-4.225-9.634-4.225h-.51c-.253-.554-.837-.899-1.497-.899h-.045c-.943 0-1.678.81-1.647 1.753.03.898.794 1.648 1.708 1.648h.074c.675-.03 1.259-.45 1.498-1.049h.555c2.309 0 4.495.674 6.488 1.992 1.527 1.004 2.622 2.322 3.236 3.896.538 1.288.509 2.547-.045 3.597-.854 1.647-2.293 2.517-4.195 2.517-1.199 0-2.367-.375-2.967-.644-.359.298-.959.793-1.394 1.093 1.318.598 2.652.943 3.94.943 2.922 0 5.093-1.647 5.918-3.236.898-1.798.824-4.824-1.469-7.416l-.014.03zM6.49 17.042c.029.899.793 1.648 1.708 1.648h.06c.959-.03 1.693-.823 1.648-1.768 0-.899-.779-1.647-1.693-1.647h-.061c-.06 0-.149 0-.225.029-1.243-2.098-1.768-4.346-1.572-6.771.119-1.828.719-3.417 1.797-4.735.899-1.124 2.592-1.679 3.746-1.708 3.236-.061 4.585 3.971 4.689 5.574l1.498.449c-.345-4.914-3.4-7.492-6.322-7.492-2.742 0-5.273 1.993-6.293 4.915-1.393 3.896-.479 7.641 1.229 10.638-.149.195-.239.539-.209.868z"></path>
+                        </svg>
+                    </p>
+                </div>
 
-                <div className="tooltip m-5" data-tip="NodeJS">
+                <div
+                    className="tooltip tooltip-accent m-5"
+                    data-tip="TypeScript"
+                >
+                    <p>
+                        <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            strokeWidth="0"
+                            role="img"
+                            viewBox="0 0 24 24"
+                            height="2.5em"
+                            width="2.5em"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <title></title>
+                            <path d="M0 12v12h24V0H0zm19.341-.956c.61.152 1.074.423 1.501.865.221.236.549.666.575.77.008.03-1.036.73-1.668 1.123-.023.015-.115-.084-.217-.236-.31-.45-.633-.644-1.128-.678-.728-.05-1.196.331-1.192.967a.88.88 0 0 0 .102.45c.16.331.458.53 1.39.933 1.719.74 2.454 1.227 2.911 1.92.51.773.625 2.008.278 2.926-.38.998-1.325 1.676-2.655 1.9-.411.073-1.386.062-1.828-.018-.964-.172-1.878-.648-2.442-1.273-.221-.243-.652-.88-.625-.925.011-.016.11-.077.22-.141.108-.061.511-.294.892-.515l.69-.4.145.214c.202.308.643.731.91.872.766.404 1.817.347 2.335-.118a.883.883 0 0 0 .313-.72c0-.278-.035-.4-.18-.61-.186-.266-.567-.49-1.649-.96-1.238-.533-1.771-.864-2.259-1.39a3.165 3.165 0 0 1-.659-1.2c-.091-.339-.114-1.189-.042-1.531.255-1.197 1.158-2.03 2.461-2.278.423-.08 1.406-.05 1.821.053zm-5.634 1.002l.008.983H10.59v8.876H8.38v-8.876H5.258v-.964c0-.534.011-.98.026-.99.012-.016 1.913-.024 4.217-.02l4.195.012z"></path>
+                        </svg>
+                    </p>
+                </div>
+                <div className="tooltip tooltip-accent m-5" data-tip="NodeJS">
+                    <p>
+                        <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            strokeWidth="0"
+                            viewBox="0 0 448 512"
+                            height="2.5em"
+                            width="2.5em"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path d="M224 508c-6.7 0-13.5-1.8-19.4-5.2l-61.7-36.5c-9.2-5.2-4.7-7-1.7-8 12.3-4.3 14.8-5.2 27.9-12.7 1.4-.8 3.2-.5 4.6.4l47.4 28.1c1.7 1 4.1 1 5.7 0l184.7-106.6c1.7-1 2.8-3 2.8-5V149.3c0-2.1-1.1-4-2.9-5.1L226.8 37.7c-1.7-1-4-1-5.7 0L36.6 144.3c-1.8 1-2.9 3-2.9 5.1v213.1c0 2 1.1 4 2.9 4.9l50.6 29.2c27.5 13.7 44.3-2.4 44.3-18.7V167.5c0-3 2.4-5.3 5.4-5.3h23.4c2.9 0 5.4 2.3 5.4 5.3V378c0 36.6-20 57.6-54.7 57.6-10.7 0-19.1 0-42.5-11.6l-48.4-27.9C8.1 389.2.7 376.3.7 362.4V149.3c0-13.8 7.4-26.8 19.4-33.7L204.6 9c11.7-6.6 27.2-6.6 38.8 0l184.7 106.7c12 6.9 19.4 19.8 19.4 33.7v213.1c0 13.8-7.4 26.7-19.4 33.7L243.4 502.8c-5.9 3.4-12.6 5.2-19.4 5.2zm149.1-210.1c0-39.9-27-50.5-83.7-58-57.4-7.6-63.2-11.5-63.2-24.9 0-11.1 4.9-25.9 47.4-25.9 37.9 0 51.9 8.2 57.7 33.8.5 2.4 2.7 4.2 5.2 4.2h24c1.5 0 2.9-.6 3.9-1.7s1.5-2.6 1.4-4.1c-3.7-44.1-33-64.6-92.2-64.6-52.7 0-84.1 22.2-84.1 59.5 0 40.4 31.3 51.6 81.8 56.6 60.5 5.9 65.2 14.8 65.2 26.7 0 20.6-16.6 29.4-55.5 29.4-48.9 0-59.6-12.3-63.2-36.6-.4-2.6-2.6-4.5-5.3-4.5h-23.9c-3 0-5.3 2.4-5.3 5.3 0 31.1 16.9 68.2 97.8 68.2 58.4-.1 92-23.2 92-63.4z"></path>
+                        </svg>
+                    </p>
+                </div>
+                <div
+                    className="tooltip tooltip-accent m-5"
+                    data-tip="ExpressJS"
+                >
+                    <p>
+                        <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                            height="2.8em"
+                            width="2.8em"
+                        >
+                            <path d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z" />
+                        </svg>
+                    </p>
+                </div>
+                <div className="tooltip tooltip-accent m-5" data-tip="NodeJS">
                     <p>
                         <svg
                             stroke="currentColor"
@@ -134,7 +208,7 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip m-5" data-tip="Firebase">
+                <div className="tooltip tooltip-accent m-5" data-tip="Firebase">
                     <p>
                         <svg
                             stroke="currentColor"
@@ -152,7 +226,7 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip m-5" data-tip="Git">
+                <div className="tooltip tooltip-accent m-5" data-tip="Git">
                     <p>
                         <svg
                             stroke="currentColor"
@@ -168,7 +242,7 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="tooltip m-5" data-tip="Linux">
+                <div className="tooltip tooltip-accent m-5" data-tip="Linux">
                     <p>
                         <svg
                             stroke="currentColor"

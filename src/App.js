@@ -1,19 +1,19 @@
 import { Toaster } from "react-hot-toast";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Particle from "./components/Particle";
 import About from "./Pages/About/About";
 import Blogs from "./Pages/Blogs/Blogs";
 import Contact from "./Pages/Contact/Contact";
 import Footer from "./Pages/Footer/Footer";
 import Home from "./Pages/Home/Home";
 import Navbar from "./Pages/Navbar/Navbar";
+import BookShelf from "./Pages/Projects/BookShelf/BookShelf";
 import Fabric from "./Pages/Projects/Fabric/Fabric";
 import Porjects from "./Pages/Projects/Porjects";
 import Remc from "./Pages/Projects/REMC/Remc";
-import T3 from "./Pages/Projects/T3/T3";
 import Skills from "./Pages/Skills/Skills";
 import Testimonials from "./Pages/Testimonials/Testimonials";
+import Particle from "./components/Particle";
 
 function App() {
     return (
@@ -38,7 +38,10 @@ function App() {
                             path="/fabric"
                             element={<Fabric></Fabric>}
                         ></Route>
-                        <Route path="/t3" element={<T3></T3>}></Route>
+                        <Route
+                            path="/bookshelf"
+                            element={<BookShelf></BookShelf>}
+                        ></Route>
 
                         <Route
                             path="/skills"

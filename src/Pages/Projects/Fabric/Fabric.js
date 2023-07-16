@@ -29,12 +29,12 @@ const Fabric = () => {
                         Fabric House
                     </h1>
                     <p>
-                        This website is made for warehouse storage. Here users
-                        can store their fabric-related products, like dresses,
-                        sheets and etc. Users can restock or deliver items to
-                        their customers. The stock value will change according
-                        to restock or delivery. Users can add new products to
-                        their stock.
+                        Fabric House is a web application built with React and
+                        powered by Firebase. It serves as a platform for
+                        managing and selling fabric items. With Fabric House,
+                        users can effortlessly showcase and organize their
+                        fabric inventory, track stock updates, and interact with
+                        customers.
                     </p>
                 </div>
                 <div>
@@ -44,27 +44,37 @@ const Fabric = () => {
                     <div className="text-center pt-5 px-10">
                         <div className="badge mx-2">ReactJS</div>
                         <div className="badge mx-2">React Router</div>
-                        <div className="badge mx-2">React Icons</div>
                         <div className="badge mx-2">React Queries</div>
                         <div className="badge mx-2">React Firebase Hooks</div>
+                        <div className="badge mx-2">React Icons</div>
                         <div className="badge mx-2">Bootstrap</div>
-                        <div className="badge mx-2">React Bootstrap</div>
-                        <div className="badge mx-2">MongoDB</div>
-                        <div className="badge mx-2">MongoDB Atlas</div>
+                        <div className="badge mx-2">DaisyUi</div>
                         <div className="badge mx-2">JWT</div>
                         <div className="badge mx-2">Firebase</div>
+                        <div className="badge mx-2">MongoDB</div>
                         <div className="badge mx-2">Git</div>
                     </div>
                 </div>
-                <Link
-                    className="pt-5"
-                    to={{
-                        pathname: "//fabric-house-99700.web.app/",
-                    }}
-                    target="_blank"
-                >
-                    <button className="btn btn-accent px-10">Visit</button>
-                </Link>
+                <div className="flex">
+                    <Link
+                        className="pt-5 px-2"
+                        to={{
+                            pathname: "//fabric-house-99700.web.app/",
+                        }}
+                        target="_blank"
+                    >
+                        <button className="btn btn-accent px-10">Visit</button>
+                    </Link>
+                    <Link
+                        className="pt-5 px-2"
+                        to={{
+                            pathname: "//github.com/zhSHUVO/fabric-house",
+                        }}
+                        target="_blank"
+                    >
+                        <button className="btn btn-accent px-10">GitHub</button>
+                    </Link>
+                </div>
             </div>
         </div>
     );

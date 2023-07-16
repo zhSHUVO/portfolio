@@ -15,12 +15,14 @@ const About = () => {
                     <div className="flex flex-col items-center ">
                         <h1 className="text-5xl font-bold text-center lg:text-left">
                             <span className="text-accent">HI,</span> <br />
-                            I'M ZAYED. A JUNIOR WEB DEVELOPER
+                            I'M ZAYED. A WEB DEVELOPER
                         </h1>
                         <p className="py-6 text-center lg:text-left">
-                            My full name is Md. Zayed Hassan Bhuiyan. I live in
-                            Dhaka, Bangladesh. I'm a student of computer science
-                            at the University of Daffodil.
+                            My full name is Md. Zayed Hassan Bhuiyan. I'm from
+                            Bangladesh. A graduate of Computer Science and
+                            Engineering (BSc) discipline at the Daffodil
+                            International University. Check out my resume to
+                            learn more.
                         </p>
 
                         <Link
@@ -57,9 +59,9 @@ const About = () => {
                 </h1>
                 <div className="flex flex-col items-center py-3">
                     <p className="text-center w-4/5	pb-2 lg:w-3/5">
-                        I consider myself a junior web Developer. Currently I'm
-                        a undergraduate at Daffodil International University.
-                        I'm still learning and trying to improve myself.
+                        Currently working on improving my skills in web
+                        development. Also, I'm open to work. Curious about
+                        software engineering and web development industry.
                     </p>
                     <p className="text-center w-4/5 lg:w-3/5">
                         I'm a dependable person and hardworking. I'm honest,
@@ -71,72 +73,66 @@ const About = () => {
                         <div>
                             <div className="lg:mr-10 my-7">
                                 <h1 className="text-center text-2xl font-bold mb-2">
-                                    PERSONAL INFOS
+                                    PERSONAL INFO
                                 </h1>
                                 <div className="flex flex-col lg:flex-row justify-evenly">
                                     <div className="mr-5">
                                         <p>
-                                            First Name:{" "}
+                                            First Name :{" "}
                                             <span className="font-bold">
-                                                Zayed Hassan
+                                                Zayed
                                             </span>
                                         </p>
                                         <p>
-                                            Last Name:{" "}
+                                            First Name :{" "}
+                                            <span className="font-bold">
+                                                Hassan
+                                            </span>
+                                        </p>
+                                        <p>
+                                            Last Name :{" "}
                                             <span className="font-bold">
                                                 Bhuiyan
                                             </span>
                                         </p>
                                         <p>
-                                            Age:{" "}
-                                            <span className="font-bold">
-                                                23 Years
-                                            </span>
-                                        </p>
-                                        <p>
-                                            Open for Job:{" "}
+                                            Open for Job :{" "}
                                             <span className="font-bold">
                                                 Yes
-                                            </span>
-                                        </p>
-                                        <p>
-                                            Phone:{" "}
-                                            <span className="font-bold">
-                                                +8801869515881
                                             </span>
                                         </p>
                                     </div>
                                     <div>
                                         <p>
-                                            Nationality:{" "}
+                                            Nationality :{" "}
                                             <span className="font-bold">
                                                 Bangladeshi
                                             </span>
                                         </p>
-                                        <p>
-                                            Address:{" "}
-                                            <span className="font-bold">
-                                                Dhaka
+                                        <button
+                                            onClick={() =>
+                                                (window.location =
+                                                    "mailto:zayedhassanbhuiyan@gmail.com")
+                                            }
+                                        >
+                                            Email :{" "}
+                                            <span className="font-bold text-accent">
+                                                zayedhassanbhuiyan
                                             </span>
-                                        </p>
-                                        <p>
-                                            Email:{" "}
-                                            <span className="font-bold">
-                                                zayedhassanbhuiyan@gmail.com
-                                            </span>
-                                        </p>
+                                        </button>
+
                                         <Link
                                             className="lg:place-self-start "
                                             to={{
                                                 pathname:
-                                                    "//www.linkedin.com/in/zhshuvo/",
+                                                    "//www.linkedin.com/in/zayedhassanbhuiyan/",
                                             }}
                                             target="_blank"
                                         >
                                             <p className="flex items-center">
-                                                LinkedIn:{" "}
-                                                <span className="font-bold">
-                                                    zhshuvo
+                                                LinkedIn : {"  "}
+                                                <span className="font-bold text-accent">
+                                                    zayedhassanbhuiyan
                                                 </span>
                                             </p>
                                         </Link>
@@ -149,8 +145,8 @@ const About = () => {
                                             target="_blank"
                                         >
                                             <p className="flex items-center">
-                                                GitHub:{" "}
-                                                <span className="font-bold">
+                                                GitHub :{" "}
+                                                <span className="font-bold text-accent">
                                                     zhSHUVO
                                                 </span>
                                             </p>
@@ -160,9 +156,6 @@ const About = () => {
                             </div>
                         </div>
                         <div>
-                            <h1 className="text-center text-2xl font-bold mb-2">
-                                I CAN DO
-                            </h1>
                             <div className="grid grid-cols-2 gap-4 lg:mt-5">
                                 <div className="card  bg-base-100 lg:w-96  w-36 shadow-xl">
                                     <div className="card-body flex items-center">

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
+import book from "../../Images/bookshelf/book.png";
 import fabric from "../../Images/fabric/fabric.png";
 import remc from "../../Images/remc/remc.png";
-import t3 from "../../Images/t3/t3.png";
 
 const Porjects = () => {
     return (
@@ -17,7 +17,9 @@ const Porjects = () => {
                         </figure>
                         <div className="card-body">
                             <h2 className="card-title">REMC</h2>
-                            <p>Website for manufacturing company</p>
+                            <p>
+                                Empowering Electronic Commerce with Seamlessness
+                            </p>
                             <div className="card-actions justify-end">
                                 <Link to="/remc">
                                     <button className="btn btn-accent">
@@ -35,17 +37,13 @@ const Porjects = () => {
                         </figure>
                         <div className="card-body">
                             <h2 className="card-title">Fabric House</h2>
-                            <p>
-                                Dress warehouse for the celebrations like eid,
-                                weading
-                            </p>
+                            <p>Fabric Hourse, warehouse for fabrics storage</p>
                             <div className="card-actions justify-end">
                                 <Link to="/fabric">
                                     <button className="btn btn-accent">
                                         Details
                                     </button>
                                 </Link>
-                                
                             </div>
                         </div>
                     </div>
@@ -54,21 +52,17 @@ const Porjects = () => {
                 <div>
                     <div className="card card-compact lg:w-96 lg:mb-0 mb-5 w-80 bg-base-100 shadow-xl">
                         <figure>
-                            <img src={t3} alt="project" />
+                            <img src={book} alt="project" />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">T3 PLUS</h2>
-                            <p>
-                                Website dedicated to the beautiful Tin Hifi T3
-                                Plus
-                            </p>
+                            <h2 className="card-title">BookShelf</h2>
+                            <p>BookShelf - Where Words Come to Life</p>
                             <div className="card-actions justify-end">
-                                <Link to="/t3">
+                                <Link to="/bookshelf">
                                     <button className="btn btn-accent">
                                         Details
                                     </button>
                                 </Link>
-                                
                             </div>
                         </div>
                     </div>
