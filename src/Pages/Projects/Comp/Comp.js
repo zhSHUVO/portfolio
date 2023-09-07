@@ -1,37 +1,38 @@
 import { Link } from "react-router-dom";
-import t3 from "../../../Images/t3/t3.png";
-import t31 from "../../../Images/t3/t31.png";
-import t32 from "../../../Images/t3/t32.png";
-import t33 from "../../../Images/t3/t33.png";
+import comp from "../../../Images/comp/comp.png";
+import comp2 from "../../../Images/comp/comp2.png";
+import comp3 from "../../../Images/comp/comp3.png";
+import comp4 from "../../../Images/comp/comp4.png";
 
-const T3 = () => {
+const Comp = () => {
     return (
         <div className="my-5">
             <div className="grid place-items-center">
                 <div className="grid grid-cols-3 gap-4 p-5 max-w-screen-lg">
                     <div className=" rounded-lg col-span-3">
-                        <img src={t3} alt="" />
+                        <img src={comp} alt="" />
                     </div>
                     <div className=" rounded-lg col-span-2">
-                        <img src={t31} alt="" />
+                        <img src={comp3} alt="" />
                     </div>
                     <div className=" rounded-lg row-span-2">
-                        <img src={t33} alt="" />
+                        <img src={comp4} alt="" />
                     </div>
                     <div className=" rounded-lg col-span-2">
-                        <img src={t32} alt="" />
+                        <img src={comp2} alt="" />
                     </div>
                 </div>
             </div>
             <div className="grid place-items-center">
                 <div className="text-center max-w-screen-lg">
                     <h1 className=" text-5xl font-bold my-5 text-accent">
-                        TIN HIHI T3
+                        ComponentXperts
                     </h1>
                     <p>
-                        This is a single product review website. Here we have
-                        the item itself and some user review. Also we have some
-                        graph or chart.
+                        ComponentXperts is a web application that allows users
+                        to build their dream PC by selecting components from
+                        various categories like CPU, Motherboard, RAM, Power
+                        Supply Unit, Storage Device, and Monitor.
                     </p>
                 </div>
                 <div>
@@ -39,10 +40,13 @@ const T3 = () => {
                         Technologies <span className="text-accent">Used</span>
                     </h1>
                     <div className="text-center pt-5 px-10">
-                        <div className="badge mx-2">React</div>
-                        <div className="badge mx-2">React Router</div>
-                        <div className="badge mx-2">Rechart</div>
-                        <div className="badge mx-2">Netlify</div>
+                        <div className="badge mx-2">NextJS</div>
+                        <div className="badge mx-2">ReactJS</div>
+                        <div className="badge mx-2">React Icons</div>
+                        <div className="badge mx-2">Tailwind</div>
+                        <div className="badge mx-2">DaisyUi</div>
+                        <div className="badge mx-2">ExpressJS</div>
+                        <div className="badge mx-2">MongoDB</div>
                         <div className="badge mx-2">Git</div>
                     </div>
                 </div>
@@ -50,7 +54,7 @@ const T3 = () => {
                     <Link
                         className="pt-5 px-2"
                         to={{
-                            pathname: "//t3-plus.netlify.app/",
+                            pathname: "//component-xperts.vercel.app/",
                         }}
                         target="_blank"
                     >
@@ -59,7 +63,7 @@ const T3 = () => {
                     <Link
                         className="pt-5 px-2"
                         to={{
-                            pathname: "//github.com/zhSHUVO/t3-plus",
+                            pathname: "//github.com/zhSHUVO/ComponentXperts",
                         }}
                         target="_blank"
                     >
@@ -71,4 +75,4 @@ const T3 = () => {
     );
 };
 
-export default T3;
+export default Comp;

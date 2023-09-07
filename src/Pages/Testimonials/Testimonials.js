@@ -4,7 +4,7 @@ const Testimonials = () => {
     return (
         <div>
             <h1 className="text-center text-5xl font-bold mt-10 mb-5">
-                No <span className="text-accent">Testimonials</span>
+                Coming <span className="text-accent">Soon</span>
             </h1>
         </div>
     );

@@ -1,37 +1,41 @@
+import React from "react";
 import { Link } from "react-router-dom";
-import t3 from "../../../Images/t3/t3.png";
-import t31 from "../../../Images/t3/t31.png";
-import t32 from "../../../Images/t3/t32.png";
-import t33 from "../../../Images/t3/t33.png";
+import shop from "../../../Images/shop/shop.png";
+import shop2 from "../../../Images/shop/shop2.png";
+import shop3 from "../../../Images/shop/shop3.png";
+import shop4 from "../../../Images/shop/shop4.png";
 
-const T3 = () => {
+const Shop = () => {
     return (
         <div className="my-5">
             <div className="grid place-items-center">
                 <div className="grid grid-cols-3 gap-4 p-5 max-w-screen-lg">
                     <div className=" rounded-lg col-span-3">
-                        <img src={t3} alt="" />
+                        <img src={shop} alt="" />
                     </div>
                     <div className=" rounded-lg col-span-2">
-                        <img src={t31} alt="" />
+                        <img src={shop2} alt="" />
                     </div>
                     <div className=" rounded-lg row-span-2">
-                        <img src={t33} alt="" />
+                        <img src={shop4} alt="" />
                     </div>
                     <div className=" rounded-lg col-span-2">
-                        <img src={t32} alt="" />
+                        <img src={shop3} alt="" />
                     </div>
                 </div>
             </div>
             <div className="grid place-items-center">
                 <div className="text-center max-w-screen-lg">
                     <h1 className=" text-5xl font-bold my-5 text-accent">
-                        TIN HIHI T3
+                        Shop Dash
                     </h1>
                     <p>
-                        This is a single product review website. Here we have
-                        the item itself and some user review. Also we have some
-                        graph or chart.
+                        Shop Dash is an e-commerce web application built with
+                        Next.js and MongoDB. It allows users to browse and
+                        purchase various products, manage their shopping cart,
+                        and place orders. The application also includes
+                        authentication using NextAuth.js to provide a secure and
+                        personalized shopping experience.
                     </p>
                 </div>
                 <div>
@@ -39,10 +43,14 @@ const T3 = () => {
                         Technologies <span className="text-accent">Used</span>
                     </h1>
                     <div className="text-center pt-5 px-10">
-                        <div className="badge mx-2">React</div>
-                        <div className="badge mx-2">React Router</div>
-                        <div className="badge mx-2">Rechart</div>
-                        <div className="badge mx-2">Netlify</div>
+                        <div className="badge mx-2">NextJS</div>
+                        <div className="badge mx-2">ReactJS</div>
+                        <div className="badge mx-2">NextAuth</div>
+                        <div className="badge mx-2">Tailwind</div>
+                        <div className="badge mx-2">DaisyUi</div>
+                        <div className="badge mx-2">ExpressJS</div>
+                        <div className="badge mx-2">MongoDB</div>
+                        <div className="badge mx-2">Mongoose</div>
                         <div className="badge mx-2">Git</div>
                     </div>
                 </div>
@@ -50,7 +58,7 @@ const T3 = () => {
                     <Link
                         className="pt-5 px-2"
                         to={{
-                            pathname: "//t3-plus.netlify.app/",
+                            pathname: "//shop-dash.vercel.app/",
                         }}
                         target="_blank"
                     >
@@ -59,7 +67,7 @@ const T3 = () => {
                     <Link
                         className="pt-5 px-2"
                         to={{
-                            pathname: "//github.com/zhSHUVO/t3-plus",
+                            pathname: "//github.com/zhSHUVO/shop-dash",
                         }}
                         target="_blank"
                     >
@@ -71,4 +79,4 @@ const T3 = () => {
     );
 };
 
-export default T3;
+export default Shop;

@@ -8,9 +8,12 @@ import Footer from "./Pages/Footer/Footer";
 import Home from "./Pages/Home/Home";
 import Navbar from "./Pages/Navbar/Navbar";
 import BookShelf from "./Pages/Projects/BookShelf/BookShelf";
+import Comp from "./Pages/Projects/Comp/Comp";
 import Fabric from "./Pages/Projects/Fabric/Fabric";
 import Porjects from "./Pages/Projects/Porjects";
 import Remc from "./Pages/Projects/REMC/Remc";
+import Shop from "./Pages/Projects/Shop/Shop";
+import T3 from "./Pages/Projects/T3/T3";
 import Skills from "./Pages/Skills/Skills";
 import Testimonials from "./Pages/Testimonials/Testimonials";
 import Particle from "./components/Particle";
@@ -42,6 +45,12 @@ function App() {
                             path="/bookshelf"
                             element={<BookShelf></BookShelf>}
                         ></Route>
+                        <Route
+                            path="/componentxperts"
+                            element={<Comp></Comp>}
+                        ></Route>
+                        <Route path="/shopdash" element={<Shop></Shop>}></Route>
+                        <Route path="/t3" element={<T3></T3>}></Route>
 
                         <Route
                             path="/skills"
